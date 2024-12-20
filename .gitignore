@@ -1,18 +1,77 @@
-*.iml
-.kotlin
-.gradle
-**/build/
-xcuserdata
-!src/**/build/
-local.properties
-.idea
+# General
 .DS_Store
-captures
-.externalNativeBuild
-.cxx
-*.xcodeproj/*
-!*.xcodeproj/project.pbxproj
-!*.xcodeproj/xcshareddata/
-!*.xcodeproj/project.xcworkspace/
-!*.xcworkspace/contents.xcworkspacedata
-**/xcshareddata/WorkspaceSettings.xcsettings
+.idea/
+.gradle/
+build/
+out/
+*.iml
+*.class
+*.log
+*.swp
+*.swo
+
+# Mac OS
+*.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# Kotlin/Java
+*.jar
+*.war
+*.ear
+*.class
+*.kotlin_metadata
+
+# Android
+/android/build/
+/android/.gradle/
+/android/local.properties
+/android/*.iml
+/android/app/build/
+/android/app/proguard-rules.pro
+
+# iOS
+/ios/.gradle/
+/ios/build/
+/ios/Pods/
+/ios/Podfile.lock
+/ios/xcuserdata
+/ios/DerivedData
+/ios/*.iml
+
+# Ktor
+.idea/modules.xml
+.idea/workspace.xml
+
+# Intellij/Android Studio
+*.idea/
+*.apk
+*.ap_
+*.cxx
+*.hprof
+*.lock
+/captures
+.externalNativeBuild/
+
+# Gradle
+.gradle/
+build/
+!gradle-wrapper.jar
+gradle.properties
+gradlew
+gradlew.bat
+.idea/gradle.xml
+
+# Logs
+*.log
+
+# Miscellaneous
+*.tmp
+*.temp
+*.tmp.*
+*.temp.*
+
+# SQLDelight
+sqldelight/
